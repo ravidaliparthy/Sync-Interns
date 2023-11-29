@@ -1,0 +1,108 @@
+body {
+    background-image: url("C:\\intern 1\\i10.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 0 15px;
+}
+
+.part,
+.product-info {
+    box-sizing: border-box;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.part {
+    margin-bottom: 20px;
+    order: 1;
+}
+
+.product-info {
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    order: 2;
+    margin-top: 20px; /* Add a top margin */
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.feature-item img {
+    width: 15px; /* Make images smaller */
+    height: 15px;
+    margin-right: 10px;
+    filter: brightness(11750%);
+}
+
+.feature-item p {
+    margin: 0;
+    font-size: 14px;
+    color: skyblue;
+}
+
+/* Additional Styling for Price */
+.price {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a transition effect */
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding:  0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
