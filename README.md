@@ -56,6 +56,8 @@ Learning resources and materials.
 
 /intern_1: Contains files for the product landing page project.
 
+/intern_2:Contains the file for quiz app with javaScript
+
 # Instructions
 
 Each task folder contains its respective codebase and resources. Follow the README.md file within each folder for specific instructions on running and understanding the projects.
