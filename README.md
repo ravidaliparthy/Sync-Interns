@@ -26,8 +26,6 @@ Display questions and multiple-choice answers.
 
 Evaluate and score user responses.
 
-Provide feedback based on user answers.
-
 # Week 3: Music Player with HTML, CSS, and JavaScript
 
 Objective: Build a music player with basic functionalities.
