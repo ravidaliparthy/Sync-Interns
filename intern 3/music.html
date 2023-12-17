@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Music Player</title>
+  <link rel="stylesheet" href="music.css">
+</head>
+<body>
+  <div class="music-player">
+    <h1>Simple Music Player♫♪</h1>
+    <p id="song-name"></p> 
+    <button onclick="playAudio()">Play</button>
+    <button onclick="pauseAudio()">Pause</button>
+    <button onclick="playPrevious()"><=previous</button>
+    <button onclick="playNext()">=>next</button>
+    <input type="range" id="seek-bar" value="0" min="0" step="1">
+  </div>
+
+  <script src="music.js"></script>
+</body>
+</html>
