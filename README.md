@@ -54,7 +54,9 @@ Learning resources and materials.
 
 /intern_1: Contains files for the product landing page project.
 
-/intern_2:Contains the file for quiz app with javaScript
+/intern_2:Contains the file for quiz app with javaScript.
+
+/intern_3:Contains the file for Music Player using html,css and JavaScript.
 
 # Instructions
 
