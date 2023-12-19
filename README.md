@@ -58,6 +58,8 @@ Learning resources and materials.
 
 /intern_3:Contains the file for Music Player using html,css and JavaScript.
 
+/intern_4:Contains the file for an E-Learning Website using html,css.
+
 # Instructions
 
 Each task folder contains its respective codebase and resources. Follow the README.md file within each folder for specific instructions on running and understanding the projects.
